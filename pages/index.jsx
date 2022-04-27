@@ -1,16 +1,11 @@
 import Head from "next/head";
-import Image from "next/image";
-import Link from "next/link";
+import dynamic from "next/dynamic";
 
-import Projects from "../projects.json";
+import AboutMe from "../modules/AboutMe";
+const Projects = dynamic(() => import("../modules/Projects"));
+const Contact = dynamic(() => import("../modules/Contact"));
 
-import {
-  AiFillLinkedin,
-  AiFillGithub,
-  AiFillMail,
-  AiFillFileText,
-} from "react-icons/ai";
-import ProjectCardSmall from "../components/ProjectCardSmall";
+import { AiFillLinkedin, AiFillGithub, AiFillMail } from "react-icons/ai";
 
 export default function Home() {
   return (
@@ -81,127 +76,11 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="py-16 px-4 md:px-6">
-        <div className="md:grid grid-cols-2 gap-24">
-          <div className="space-y-4 pt-6 col-span-1">
-            <h2 className="text-2xl md:text-3xl font-medium pb-2">
-              &#11088;&nbsp;About Me
-            </h2>
-            <p className="text-zinc-400 md:text-lg">
-              Hello! I'm David Nguyen, a current sophomore pursuing Computer
-              Science at UC Santa Cruz.
-            </p>
+      <AboutMe />
 
-            <p className="text-zinc-400 md:text-lg">
-              I'm a self-taught developer that specializes in full-stack web
-              development. I love to fuel my innovation by exploring creative
-              ideas and executing them. I've always been fascinated with the
-              idea of how things worked - which paired with my love of computers
-              and digital media, led me to where I am today and kickstarted my
-              foray into web development.
-            </p>
+      <Projects />
 
-            <p className="text-zinc-400 md:text-lg">
-              Outside of work, I enjoy playing video games such as Valorant,
-              reselling sneakers, and exploring new places with my friends.
-            </p>
-          </div>
-
-          <div className="col-span-1 flex items-center justify-center mt-10">
-            <div className="relative h-80 w-80 md:h-96 md:w-96">
-              <Image
-                src="/portrait.jpg"
-                layout="fill"
-                objectFit="cover"
-                className="rounded-full object-[center_top] object-scale-down"
-              />
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="py-16 px-4 md:px-6">
-        <h2 className="text-2xl md:text-3xl font-medium pb-2">
-          &#128187;&nbsp;Projects
-        </h2>
-        <span className="text-zinc-400 md:text-lg">
-          For a more in-depth view of my projects and experiences,&nbsp;
-          <Link href="/projects">
-            <a className="cursor-pointer text-white hover:text-sky-400 transition duration-150 ease-in-out">
-              click here
-            </a>
-          </Link>
-          .
-        </span>
-
-        <div className="mt-8 space-y-8 md:space-y-0 md:grid grid-cols-3 gap-8">
-          {Projects.projects.map((project, idx) => {
-            return (
-              idx < 3 && (
-                <ProjectCardSmall
-                  key={project.key}
-                  title={project.title}
-                  techstack={project.technologies}
-                  subtitle={project.subtitle}
-                  content={project.content}
-                  image={project.images[0]}
-                />
-              )
-            );
-          })}
-        </div>
-      </section>
-
-      <section className="py-64 md:py-80 px-4 md:px-6">
-        <div className="flex flex-col justify-center items-center">
-          <h1 className="text-3xl md:text-5xl font-semibold">Keep In Touch.</h1>
-
-          <div className="mt-8 text-center">
-            <span className="text-zinc-400 text-lg">
-              For any inquires, feel free to email me at&nbsp;
-              <a
-                href="mailto:dnguy203@ucsc.edu"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-sky-400"
-              >
-                dnguy203@ucsc.edu
-              </a>
-              .
-            </span>
-          </div>
-
-          <div className="flex gap-x-4 mt-8">
-            <a
-              href="https://github.com/daxidngyn"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center font-medium gap-x-2 bg-zinc-800 py-2 px-3 md:px-3.5 rounded-lg cursor-pointer hover:bg-zinc-700 hover:scale-95 transition duration-300 ease-in-out"
-            >
-              <AiFillGithub className="w-5 h-5 text-sky-400" />
-              <span className="text-sm md:text-base">Github</span>
-            </a>
-            <a
-              href="https://linkedin.com/in/davidngyn"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center font-medium gap-x-2 bg-zinc-800 py-2 px-3 md:px-3.5 rounded-lg cursor-pointer hover:bg-zinc-700 hover:scale-95 transition duration-300 ease-in-out"
-            >
-              <AiFillLinkedin className="w-5 h-5 text-sky-400" />
-              <span className="text-sm md:text-base">Linkedin</span>
-            </a>
-            <a
-              href="https://docs.google.com/document/d/1mV8xR01q6VJCVs58Md2UYzICOdnuPt3r/edit?usp=sharing&ouid=107088831996549920390&rtpof=true&sd=true"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center font-medium gap-x-2 bg-zinc-800 py-2 px-3 md:px-3.5 rounded-lg cursor-pointer hover:bg-zinc-700 hover:scale-95 transition duration-300 ease-in-out"
-            >
-              <AiFillFileText className="w-5 h-5 text-sky-400" />
-              <span className="text-sm md:text-base">Resume</span>
-            </a>
-          </div>
-        </div>
-      </section>
+      <Contact />
     </main>
   );
 }
