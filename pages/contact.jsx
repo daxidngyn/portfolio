@@ -14,22 +14,22 @@ export default function Contact() {
   const handleSendMail = (e) => {
     e.preventDefault();
 
-    setErrorMsg("");
+    setErr("");
 
     if (name.length == 0) {
-      setErrorMsg("You must provide a name!");
+      setErr("You must provide a name!");
       return;
     }
     if (email.length == 0 || !email.includes("@")) {
-      setErrorMsg("You must provide a valid email!");
+      setErr("You must provide a valid email!");
       return;
     }
     if (subject.length == 0) {
-      setErrorMsg("You must provide a subject!");
+      setErr("You must provide a subject!");
       return;
     }
     if (message.length == 0) {
-      setErrorMsg("You must provide a message!");
+      setErr("You must provide a message!");
       return;
     }
 
