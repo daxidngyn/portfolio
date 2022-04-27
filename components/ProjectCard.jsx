@@ -53,7 +53,7 @@ const ProjectCard = ({ title, techstack, subtitle, content, image, link }) => {
       </div>
 
       <div className="col-span-7">
-        <div className="h-full w-full relative shadow-xl">
+        <div className="h-full w-full relative">
           <Image
             src={image}
             layout="fill"
