@@ -1,0 +1,68 @@
+{
+  "projects": [
+    {
+      "title": "VO2",
+      "subtitle": "2022 Class of the Techstars Accelerator",
+      "content": "A blockchain-based platform that allows athletes to tokenize themselves and create fan-athlete economies.",
+      "date": "Oct 2021 - Present",
+      "images": ["/vo2/vo2-1.PNG"],
+      "technologies": ["Next.js", "Web3.js", "Moralis.io", "MongoDB"],
+      "roles": ["Cofounder", "Head Engineer"],
+      "link": "https://vo2.fans",
+      "key": "vo2"
+    },
+    {
+      "title": "Dapper",
+      "subtitle": "NFT",
+      "content": "Meta-NFT handshake collectible based on Ethereum that provides iconic handshakes from the web available to mint.",
+      "date": "August 2021",
+      "images": ["/dapper/dapper-1.png"],
+      "technologies": ["Next.js", "MongoDB", "Web3/IPFS", "Polygon"],
+      "roles": ["Cofounder"],
+      "link": "https://dappr-fs.vercel.app/",
+      "key": "dapper"
+    },
+    {
+      "title": "Stashed",
+      "content": "Manage your inventory of sneakers, apparel, and collectibles.",
+      "date": "June 2021",
+      "images": [],
+      "technologies": ["React", "Electron", "File Handling", "APIs"],
+      "features": [
+        "Real-time market value of inventory items",
+        "Manage other sources of income and expenses",
+        "Accurate data visualization"
+      ],
+      "link": "https://gitfront.io/r/user-8084922/acfc83b6f681319e7c3e54eabe9ead4fa22a6ce5/Stashed/",
+      "key": "stashed"
+    },
+    {
+      "title": "Elevate",
+      "content": "Created to assist with unsystematic virtual college classes.",
+      "date": "March 2020 — Present",
+      "images": [],
+      "technologies": ["React Native", "Expo", "MongoDB/Prisma", "Passport.js"],
+      "features": [
+        "Add and manage classes or import them directly from Canvas",
+        "Receive notifications for upcoming assignments or events",
+        "Track attendance and mark assignments as complete"
+      ],
+      "link": "https://gitfront.io/r/user-8084922/a741b03593c74670bbae13cb010e4a3f8f8b3b59/Elevate/",
+      "key": "elevate"
+    },
+    {
+      "title": "Monopoly",
+      "content": "Monopoly project for AP Computer Science.",
+      "date": "May 2020",
+      "images": [],
+      "technologies": ["Java", "Swing (GUI)"],
+      "features": [
+        "Opens in a GUI window, complete with a board and moving pieces",
+        "External menus to interact with the game and other players",
+        "Play a full game of Monopoly with another player"
+      ],
+      "link": "https://github.com/daxidngyn/monopolyAPCS",
+      "key": "monopoly"
+    }
+  ]
+}

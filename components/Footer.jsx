@@ -9,7 +9,15 @@ const Footer = () => {
         Built with <span className="text-sky-400">Next.js</span>&nbsp;&&nbsp;
         <span className="text-sky-400">TailwindCSS</span>. Check out the
         code&nbsp;
-        <a className="text-sky-400 cursor-pointer">here</a>!
+        <a
+          href="https://github.com/daxidngyn/portfolio"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-sky-400 cursor-pointer"
+        >
+          here
+        </a>
+        !
       </span>
     </div>
   );
