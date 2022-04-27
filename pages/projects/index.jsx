@@ -52,7 +52,7 @@ export default function ProjectPage() {
         <div className="space-y-12 mt-16">
           {Projects.projects.map((project, idx) => {
             return (
-              idx < 2 && (
+              idx < 3 && (
                 <ProjectCard
                   key={project.key}
                   title={project.title}
@@ -69,7 +69,7 @@ export default function ProjectPage() {
           <div className="md:grid grid-cols-3 gap-8 space-y-8 md:space-y-0">
             {Projects.projects.map((project, idx) => {
               return (
-                idx >= 2 && (
+                idx >= 3 && (
                   <div className="col-span-1 bg-zinc-800 rounded-3xl shadow-xl">
                     <ProjectCardSmall
                       key={project.key}

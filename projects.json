@@ -5,10 +5,21 @@
       "subtitle": "2022 Class of the Techstars Accelerator",
       "content": "A blockchain-based platform that allows athletes to tokenize themselves and create fan-athlete economies.",
       "date": "Oct 2021 - Present",
-      "images": ["/vo2/vo2-1.PNG"],
+      "images": ["/vo2/vo2-1.png"],
       "technologies": ["Next.js", "Web3.js", "Moralis.io", "MongoDB"],
       "roles": ["Cofounder", "Head Engineer"],
       "link": "https://vo2.fans",
+      "key": "vo2"
+    },
+    {
+      "title": "WordleMon",
+      "subtitle": "Gotta Guess 'Em All!",
+      "content": "A Wordle-like game that allows users to guess a daily randomly generated Pokemon.",
+      "date": "Feb 2022",
+      "images": ["/wordlemon/wordlemon-1.png"],
+      "technologies": ["Next.js"],
+      "roles": ["Founder"],
+      "link": "https://wordlemon.com",
       "key": "vo2"
     },
     {

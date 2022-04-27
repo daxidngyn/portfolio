@@ -13,7 +13,7 @@ const ProjectCardSmall = ({ title, content, link }) => {
       <span className="font-light mt-6">{content}</span>
 
       <div className="mt-8">
-        <button className="text-xs uppercase hover:scale-95 transition duration-300 ease-in-out flex items-center font-semibold tracking-wide">
+        <button className="text-xs uppercase hover:scale-95 group-hover:underline decoration-zinc-700 transition duration-300 ease-in-out flex items-center font-semibold tracking-wide">
           Learn more
           <BsArrowRightShort className="w-5 h-5 group-hover:translate-x-1 transition duration-300 ease-in-out" />
         </button>

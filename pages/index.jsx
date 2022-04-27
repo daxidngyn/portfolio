@@ -127,7 +127,9 @@ export default function Home() {
         <span className="text-zinc-400 md:text-lg">
           For a more in-depth view of my projects and experiences,&nbsp;
           <Link href="/projects">
-            <a className="cursor-pointer text-white">click here</a>
+            <a className="cursor-pointer text-white hover:text-sky-400 transition duration-150 ease-in-out">
+              click here
+            </a>
           </Link>
           .
         </span>
