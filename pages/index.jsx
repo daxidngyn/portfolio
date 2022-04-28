@@ -141,10 +141,8 @@ export default function Home() {
                 <ProjectCardSmall
                   key={project.key}
                   title={project.title}
-                  techstack={project.technologies}
-                  subtitle={project.subtitle}
                   content={project.content}
-                  image={project.images[0]}
+                  link={project.link}
                 />
               )
             );
