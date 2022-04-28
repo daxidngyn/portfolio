@@ -81,9 +81,9 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="py-16 px-4 md:px-6">
+      <section className="py-20 px-4 md:px-6">
         <div className="md:grid grid-cols-2 gap-24">
-          <div className="space-y-4 pt-6 col-span-1">
+          <div className="space-y-4 pt-8 col-span-1">
             <h2 className="text-2xl md:text-3xl font-medium pb-2">
               &#11088;&nbsp;About Me
             </h2>
@@ -138,12 +138,14 @@ export default function Home() {
           {Projects.projects.map((project, idx) => {
             return (
               idx < 3 && (
-                <ProjectCardSmall
-                  key={project.key}
-                  title={project.title}
-                  content={project.content}
-                  link={project.link}
-                />
+                <div className="col-span-1 bg-zinc-800 rounded-3xl shadow-xl">
+                  <ProjectCardSmall
+                    key={project.key}
+                    title={project.title}
+                    content={project.content}
+                    link={project.link}
+                  />
+                </div>
               )
             );
           })}
