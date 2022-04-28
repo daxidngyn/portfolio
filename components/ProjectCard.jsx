@@ -24,7 +24,7 @@ const ProjectCard = ({ title, techstack, subtitle, content, image, link }) => {
           ))}
         </div>
 
-        <div className="h-48 w-full relative mt-4 lg:hidden">
+        <div className="h-48 w-full relative mt-4 ring-2 ring-black rounded-2xl lg:hidden">
           <Image
             src={image}
             layout="fill"
@@ -53,7 +53,7 @@ const ProjectCard = ({ title, techstack, subtitle, content, image, link }) => {
       </div>
 
       <div className="col-span-7">
-        <div className="h-full w-full relative shadow-xl ring-2 ring-black rounded-2xl">
+        <div className="h-full w-full relative shadow-xl lg:ring-2 ring-black rounded-2xl">
           <Image
             src={image}
             layout="fill"
