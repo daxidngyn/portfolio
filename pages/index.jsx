@@ -27,9 +27,9 @@ export default function Home() {
 
       <section className="space-y-10 py-16 md:py-28 px-4 md:px-6">
         <div className="flex flex-col">
-          <span className="text-2xl md:text-3xl text-sky-400 font-medium relative">
+          <h2 className="text-2xl md:text-3xl text-sky-400 font-medium relative">
             Hey there! I'm
-          </span>
+          </h2>
           <h1 className="text-7xl md:text-8xl font-bold">David Nguyen.</h1>
         </div>
 
@@ -44,10 +44,10 @@ export default function Home() {
         </div>
 
         <div className="max-w-4xl">
-          <span className="text-xl md:text-2xl text-zinc-400">
+          <h3 className="text-xl md:text-2xl text-zinc-400">
             &#127891;&nbsp;Computer Science Student @ University of California,
             Santa Cruz
-          </span>
+          </h3>
         </div>
 
         <div className="flex gap-x-4">
@@ -154,7 +154,7 @@ export default function Home() {
 
       <section className="py-64 md:py-80 px-4 md:px-6">
         <div className="flex flex-col justify-center items-center">
-          <h1 className="text-3xl md:text-5xl font-semibold">Keep In Touch.</h1>
+          <h2 className="text-3xl md:text-5xl font-semibold">Keep In Touch.</h2>
 
           <div className="mt-8 text-center">
             <span className="text-zinc-400 text-lg">

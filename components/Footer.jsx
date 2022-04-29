@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <div className="flex flex-col items-center justify-center pb-6 text-zinc-400 text-xs md:text-sm text-center px-4 md:px-6">
+    <footer className="flex flex-col items-center justify-center pb-6 text-zinc-400 text-xs md:text-sm text-center px-4 md:px-6">
       <span>
         Designed and Developed by&nbsp;
         <span className="text-sky-400">David Nguyen</span>.
@@ -19,7 +19,7 @@ const Footer = () => {
         </a>
         !
       </span>
-    </div>
+    </footer>
   );
 };
 
