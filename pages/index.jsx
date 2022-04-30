@@ -111,6 +111,7 @@ export default function Home() {
             <div className="relative h-80 w-80 md:h-96 md:w-96">
               <Image
                 src="/portrait.jpg"
+                alt="picture of me!"
                 layout="fill"
                 objectFit="cover"
                 className="rounded-full object-[center_top] object-scale-down"

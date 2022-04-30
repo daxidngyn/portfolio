@@ -27,6 +27,7 @@ const ProjectCard = ({ title, techstack, subtitle, content, image, link }) => {
         <div className="h-48 w-full relative mt-4 ring-2 ring-black rounded-2xl lg:hidden">
           <Image
             src={image}
+            alt={title}
             layout="fill"
             objectFit="cover"
             className="rounded-2xl object-top"
