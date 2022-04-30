@@ -41,7 +41,7 @@ const Navbar = () => {
             </a>
           </Link>
           <a
-            href="https://docs.google.com/document/d/1mV8xR01q6VJCVs58Md2UYzICOdnuPt3r/edit?usp=sharing&ouid=107088831996549920390&rtpof=true&sd=true"
+            href="https://docs.google.com/document/d/1khZ1gB62KeG_ORlxInwUiHKowzUywXMD4m6mEjHYtMo/edit?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >

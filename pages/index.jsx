@@ -191,7 +191,7 @@ export default function Home() {
               <span className="text-sm md:text-base">Linkedin</span>
             </a>
             <a
-              href="https://docs.google.com/document/d/1mV8xR01q6VJCVs58Md2UYzICOdnuPt3r/edit?usp=sharing&ouid=107088831996549920390&rtpof=true&sd=true"
+              href="https://docs.google.com/document/d/1khZ1gB62KeG_ORlxInwUiHKowzUywXMD4m6mEjHYtMo/edit?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center font-medium gap-x-2 bg-zinc-800 py-2 px-3 md:px-3.5 rounded-lg cursor-pointer hover:bg-zinc-700 hover:scale-95 transition duration-300 ease-in-out"
