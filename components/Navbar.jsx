@@ -154,7 +154,7 @@ const Navbar = () => {
                       Projects
                     </a>
                     <a
-                      href="https://docs.google.com/document/d/1mV8xR01q6VJCVs58Md2UYzICOdnuPt3r/edit?usp=sharing&ouid=107088831996549920390&rtpof=true&sd=true"
+                      href="https://docs.google.com/document/d/1khZ1gB62KeG_ORlxInwUiHKowzUywXMD4m6mEjHYtMo/edit?usp=sharing"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="outline-none mx-auto text-4xl md:text-6xl lg:text-7xl tracking-wider cursor-pointer font-bold text-gray-400 hover:text-gray-200 transition duration-300 ease-in-out"

@@ -157,7 +157,7 @@ export default function Home() {
         <div className="flex flex-col justify-center items-center">
           <h2 className="text-3xl md:text-5xl font-semibold">Keep In Touch.</h2>
 
-          <div className="mt-8 text-center">
+          <div className="mt-6 md:mt-8 text-center">
             <span className="text-zinc-400 text-lg">
               For any inquires, feel free to email me at&nbsp;
               <a
@@ -172,7 +172,7 @@ export default function Home() {
             </span>
           </div>
 
-          <div className="flex gap-x-4 mt-8">
+          <div className="flex gap-x-2.5 md:gap-x-4 mt-6 md:mt-8">
             <a
               href="https://github.com/daxidngyn"
               target="_blank"
