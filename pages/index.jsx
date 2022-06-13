@@ -25,7 +25,7 @@ export default function Home() {
         <meta property="og:image" content="/portrait.jpg" />
       </Head>
 
-      <section className="space-y-10 py-16 md:py-28 px-4 md:px-6">
+      <section className="space-y-8 md:space-y-10 py-16 md:py-28 px-4 md:px-6">
         <div className="flex flex-col">
           <h2 className="text-2xl md:text-3xl text-sky-400 font-medium relative">
             Hey there! I'm
@@ -87,12 +87,12 @@ export default function Home() {
             <h2 className="text-2xl md:text-3xl font-medium pb-2">
               &#11088;&nbsp;About Me
             </h2>
-            <p className="text-zinc-400 md:text-lg">
+            <p className="opacity-70 md:text-lg">
               Hello! I'm David Nguyen, a current sophomore pursuing Computer
               Science at UC Santa Cruz.
             </p>
 
-            <p className="text-zinc-400 md:text-lg">
+            <p className="opacity-70 md:text-lg">
               I'm a self-taught developer that specializes in full-stack web
               development. I love to fuel my innovation by exploring creative
               ideas and executing them. I've always been fascinated with the
@@ -101,7 +101,7 @@ export default function Home() {
               foray into web development.
             </p>
 
-            <p className="text-zinc-400 md:text-lg">
+            <p className="opacity-70 md:text-lg">
               Outside of work, I enjoy playing video games such as Valorant,
               reselling sneakers, and exploring new places with my friends.
             </p>
