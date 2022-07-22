@@ -10,31 +10,40 @@ const techStack = [
   "Java",
   "Javascript",
   "HTML/CSS",
-  "C",
+  "C/C++",
   "React",
   "Next.js",
   "React Native",
   "Electron",
   "MongoDB",
-  "SQL",
+  "Postgres",
   "Prisma",
+  "AWS Services (S3, Lambda, EC2, Amplify)",
 ];
 
 export default function ProjectPage() {
   return (
     <div>
-      <Head></Head>
+      <Head>
+        <title>Projects - David Nguyen | Portfolio</title>
+        <meta
+          name="description"
+          content="All of the projects that I've worked on, many of which I'm still working on or have published!"
+        />
+        <meta property="og:url" content="https://davidnguyen.at/projects" />
+        <meta property="og:image" content="/portrait.jpg" />
+      </Head>
       <main className="max-w-5xl mx-auto py-20 px-4 md:px-6">
         <div className="text-center pb-12">
           <h1 className="text-5xl md:text-6xl font-bold pb-6">My Projects</h1>
           <span className="text-lg md:text-xl">
             All of the projects that I&apos;ve worked on, many of which I&apos;m
-            still working on or have published.
+            still working on or have published!
           </span>
         </div>
 
         <div className="text-center">
-          <span className="text-xl md:text-2xl uppercase text-zinc-400 font-light">
+          <span className="text-xl md:text-2xl uppercase opacity-60 font-light tracking-wide">
             Skills
           </span>
           <div className="space-x-2 mt-2 max-w-xl mx-auto flex flex-wrap justify-center md:block">

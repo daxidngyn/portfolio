@@ -27,16 +27,10 @@ const Navbar = () => {
         </Link>
         <div className="space-x-8 md:flex hidden">
           <Link href="/">
-            <a className={`${asPath === "/" && "text-sky-400 font-medium"}`}>
-              Home
-            </a>
+            <a className={`${asPath === "/" && "text-sky-400"}`}>Home</a>
           </Link>
           <Link href="/projects">
-            <a
-              className={`${
-                asPath === "/projects" && "text-sky-400 font-medium"
-              }`}
-            >
+            <a className={`${asPath === "/projects" && "text-sky-400"}`}>
               Projects
             </a>
           </Link>

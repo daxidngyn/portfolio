@@ -8,7 +8,7 @@ const ProjectCard = ({ title, techstack, subtitle, content, image, link }) => {
       <div className="col-span-5 flex flex-col">
         <span className="text-3xl font-bold">{title}</span>
 
-        <div className="space-x-2 mt-0.5">
+        <div className="space-x-2 mt-1">
           {techstack.map((tech, idx) => (
             <>
               <span
@@ -24,7 +24,7 @@ const ProjectCard = ({ title, techstack, subtitle, content, image, link }) => {
           ))}
         </div>
 
-        <div className="h-48 w-full relative mt-4 ring-2 ring-black rounded-2xl lg:hidden">
+        <div className="h-48 w-full relative mt-4 rounded-2xl lg:hidden shadow-2xl">
           <Image
             src={image}
             alt={title}
@@ -34,11 +34,11 @@ const ProjectCard = ({ title, techstack, subtitle, content, image, link }) => {
           />
         </div>
 
-        <span className="text-zinc-200 lg:text-lg font-medium mt-4">
+        <span className="text-zinc-200 lg:text-lg font-medium mt-5">
           {subtitle}
         </span>
 
-        <span className="text-zinc-200 mt-2">{content}</span>
+        <span className="text-zinc-200 mt-1">{content}</span>
 
         <div className="mt-12">
           <a
@@ -54,7 +54,7 @@ const ProjectCard = ({ title, techstack, subtitle, content, image, link }) => {
       </div>
 
       <div className="col-span-7">
-        <div className="h-full w-full relative shadow-xl lg:ring-2 ring-black rounded-2xl">
+        <div className="h-full w-full relative shadow-2xl drop-shadow-2xl rounded-2xl">
           <Image
             src={image}
             layout="fill"

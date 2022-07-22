@@ -6,7 +6,7 @@
       "content": "A blockchain-based platform that allows athletes to tokenize themselves and create fan-athlete economies.",
       "date": "Oct 2021 - Present",
       "images": ["/vo2/vo2-1.png"],
-      "technologies": ["Next.js", "Web3.js", "Moralis.io", "MongoDB"],
+      "technologies": ["Next.js", "Web3.js", "MongoDB", "AWS"],
       "roles": ["Cofounder", "Head Engineer"],
       "link": "https://vo2.fans",
       "key": "vo2"
@@ -20,7 +20,7 @@
       "technologies": ["Next.js"],
       "roles": ["Founder"],
       "link": "https://wordlemon.com",
-      "key": "vo2"
+      "key": "wordlemon"
     },
     {
       "title": "Dapper",
